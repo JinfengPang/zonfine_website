@@ -42,7 +42,6 @@ body {
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: #0f172a;
 }
 
@@ -80,7 +79,7 @@ a {
 }
 
 .container {
-  width: min(1120px, 92%);
+  width: min(1280px, 94%);
   margin: 0 auto;
 }
 
@@ -321,6 +320,23 @@ section {
   margin-top: 28px;
   border: none;
   box-shadow: 0 16px 26px rgba(94, 234, 212, 0.28);
+}
+
+.button.secondary {
+  background: linear-gradient(90deg, #c9ddff, #e3efff);
+  color: #203052;
+  box-shadow: 0 16px 26px rgba(122, 167, 255, 0.24);
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.button-row .button {
+  margin-top: 0;
 }
 
 .comparison {
