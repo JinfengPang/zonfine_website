@@ -26,6 +26,7 @@ function App() {
     zh: {
       brand: '中帆云联',
       navLinks: ['效率', '客户与痛点', '优势', '培训', '对比'],
+      contactCta: '联系我们',
       langToggle: 'EN',
       hero: {
         badge: '以AI探索未知，以定制重塑传统',
@@ -489,6 +490,7 @@ function App() {
     en: {
       brand: 'Zonfine Cloud',
       navLinks: ['Efficiency', 'Customers & Pain Points', 'Advantages', 'Training', 'Comparison'],
+      contactCta: 'Contact Us',
       langToggle: '中文',
       hero: {
         badge: 'Exploring the Unknown, Reshaping Tradition',
