@@ -987,7 +987,7 @@ function App() {
       confirmTitle: '请检查信息是否正确',
       confirmButton: '确认',
       successMessage: '已成功提交，请静待佳音。',
-      submitError: '提交失败，请稍后再试或更换联系方式。',
+      submitError: '提交失败，请稍后再试。',
       errors: {
         role: '请选择您的角色',
         demand: '请选择您的需求',
@@ -1014,7 +1014,7 @@ function App() {
       confirmTitle: 'Please verify your information',
       confirmButton: 'Confirm',
       successMessage: 'Submitted successfully. Please wait for our response.',
-      submitError: 'Submission failed. Please try again later or use another contact method.',
+      submitError: 'Submission failed. Please try again later.',
       errors: {
         role: 'Please select your role',
         demand: 'Please select your request',
