@@ -1126,7 +1126,10 @@ function App() {
       try {
         const response = await fetch('https://fxqxtef390.execute-api.cn-northwest-1.amazonaws.com.cn/live/contactUs', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': '2QnCWXETvM21agG9eFjSH2nkutPkLsGW8CgTebF4',
+          },
           body: JSON.stringify(payload),
         })
         if (!response.ok) throw new Error(`Request failed: ${response.status}`)
